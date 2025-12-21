@@ -1,0 +1,1 @@
+import"./common-poWYsgtq.js";document.addEventListener("DOMContentLoaded",()=>{const e=document.querySelector(".btn-side-toggle"),t=document.querySelector(".app-sidenav-wrap"),n=document.querySelector(".app-main");e&&t&&e.addEventListener("click",()=>{t.classList.toggle("active"),n.classList.toggle("sidenav-active")})});

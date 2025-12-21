@@ -1,0 +1,54 @@
+
+/*-------------------------*/
+body{
+    background-color:#EAF0F4;
+}
+.app-main{
+    background-color:#EAF0F4;
+}
+.head-back-wrap{
+    width:100%; height: 380px;
+    &::before{
+        content:""; background: hsla(229, 54%, 19%, 0.55);
+        backdrop-filter: blur(70px);
+        -webkit-backdrop-filter: blur(70px);
+        display:block;
+        position: absolute; width:100%; height:100%;
+        top:0; left:0; z-index:2;
+    }
+}
+.head-back{
+    width:100%; height:380px; position: absolute;
+    top:0; left:0; background-color: #022C74;    
+}
+.mo-wrap{
+    position: relative; padding-top:0;
+    >.head-back-wrap{
+        height: 500px;
+        >.head-back{
+            height: 500px;
+        }
+        &::before{
+            backdrop-filter: blur(40px);
+            -webkit-backdrop-filter: blur(40px);
+        }
+    }
+    >.section-content{
+        padding: 100px 0 80px 0;
+    }
+    >.header-mo-img{
+        width:100%; z-index: 10; top:32px; position: absolute;
+    }
+}
+
+/*-------------------------*/
+
+.section-content{
+  width:100%; display:flex; justify-content:center;
+  padding: 170px 0 120px 0;
+  position: absolute; top:0; left:0; z-index:4;
+  >.dummy-full-img{
+    width:100%; max-width: 1520px;
+    filter: drop-shadow(2px 2px 8px rgba(0,0,0,0.06));
+  }
+}
