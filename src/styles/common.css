@@ -63,6 +63,9 @@ a{ text-decoration: none; }
         max-width:100%;
       }
     }
+    >.btn-side-nav-guide{
+     >img{ width: 56px; margin-top:4px;}
+    }
     >.btn-side-nav-setting{
       position:absolute; bottom: 24px;
     }
