@@ -127,7 +127,7 @@ a{ text-decoration: none; }
         }
         &.active{
           >a{
-            color: var(--color-gra-900);
+            color: var(--color-gray-900);
           }
           &::after{
              content:''; display:block; width:100%; position: absolute;
