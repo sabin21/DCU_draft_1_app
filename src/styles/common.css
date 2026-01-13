@@ -119,7 +119,7 @@ a{ text-decoration: none; }
         position: relative; transition: all 0.2s;
         >a{
           display:flex; align-items:center; font-size: 17px; font-weight: bold;
-          color: var(--color-gray-500); text-align:center; width:100%; height:100%;
+          color: var(--color-gray-600); text-align:center; width:100%; height:100%;
         }
         &::after{
           content:''; display:block; width:100%; position: absolute; height:3px; 
@@ -293,6 +293,11 @@ a{ text-decoration: none; }
       >.title-wrap{ 
         width:100%; padding: 16px 0 0 0;
         >h2{ font-size: 28px; margin: 12px 0;} 
+        >.title-info-block{
+          >li{
+            padding: 4px 0;
+          }
+        }
       }
       >.links-wrap{
         width: 100%; display: flex; gap: 16px; padding: 20px 0;

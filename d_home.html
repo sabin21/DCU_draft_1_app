@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+</head>
+
+<body>
+    <span class="back-wrap">
+        <span class="circle circle-1"></span>
+        <span class="circle circle-2"></span>
+        <span class="circle circle-3"></span>
+    </span>
+    <div class="app-sidenav-wrap">
+        <nav class="app-sidenav" id="app-sidenav">
+            <div class="sidenav-inner">
+
+                <div class="btn-side-toggle">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="side-toggle-open-svg">
+                        <path d="M18 18L12 12L18 6" stroke="#B1B8BE" stroke-width="1.6" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M11 18L5 12L11 6" stroke="#B1B8BE" stroke-width="1.6" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="side-toggle-close-svg">
+                        <path d="M5.85718 18L11.8572 12L5.85718 6" stroke="#B1B8BE" stroke-width="1.6"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M13 18L19 12L13 6" stroke="#B1B8BE" stroke-width="1.6" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+
+                <div class="btn-menus">
+                    <img src="/src/assets/img/side_nav_menu.png" class="dummy-img">
+                </div>
+
+                <div class="btn-side-nav-setting">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8.33922 1.80388C8.43271 1.33646 8.84312 1 9.3198 1H10.6802C11.1569 1 11.5673 1.33646 11.6608 1.80388L11.9553 3.27675C12.4522 3.42101 12.9263 3.61886 13.3709 3.86363L14.6212 3.03014C15.0178 2.76572 15.5459 2.81802 15.883 3.15508L16.8449 4.11702C17.182 4.45409 17.2343 4.98221 16.9699 5.37883L16.1364 6.62908C16.3811 7.07369 16.579 7.54778 16.7232 8.04465L18.1961 8.33922C18.6635 8.43271 19 8.84312 19 9.3198V10.6802C19 11.1569 18.6635 11.5673 18.1961 11.6608L16.7232 11.9553C16.579 12.4522 16.3812 12.9262 16.1364 13.3708L16.97 14.6212C17.2344 15.0178 17.1821 15.5459 16.845 15.883L15.8831 16.8449C15.546 17.182 15.0179 17.2343 14.6213 16.9699L13.371 16.1363C12.9264 16.3811 12.4522 16.579 11.9554 16.7232L11.6608 18.1961C11.5673 18.6635 11.1569 19 10.6802 19H9.3198C8.84312 19 8.43271 18.6635 8.33922 18.1961L8.04465 16.7232C7.54778 16.579 7.0737 16.3811 6.62908 16.1364L5.37882 16.9699C4.9822 17.2343 4.45408 17.182 4.11701 16.8449L3.15507 15.883C2.81801 15.5459 2.76571 15.0178 3.03013 14.6212L3.86363 13.3709C3.61886 12.9263 3.42101 12.4522 3.27675 11.9554L1.80388 11.6608C1.33646 11.5673 1 11.1569 1 10.6802L1 9.3198C1 8.84312 1.33646 8.43271 1.80388 8.33922L3.27675 8.04465C3.42102 7.54774 3.61889 7.07363 3.86368 6.62898L3.03024 5.37882C2.76582 4.9822 2.81812 4.45408 3.15518 4.11701L4.11712 3.15507C4.45419 2.81801 4.98231 2.76571 5.37893 3.03013L6.62913 3.86359C7.07373 3.61884 7.5478 3.42101 8.04465 3.27675L8.33922 1.80388ZM13 10C13 11.6569 11.6569 13 10 13C8.34315 13 7 11.6569 7 10C7 8.34315 8.34315 7 10 7C11.6569 7 13 8.34315 13 10Z"
+                            fill="#B1B8BE" />
+                    </svg>
+                </div>
+            </div>
+        </nav>
+        <div class="sidenav-panel">
+            <img src="/src/assets/img/sidebar_content.png" class="sidenav-dummy-img">
+        </div>
+    </div>
+
+    <main class="app-main">
+
+        <header class="app-header" id="app-header">
+            <div class="left-block">
+                <a class="logo-wrap">
+                    <img src="/src/assets/img/logo_advisor.svg">
+                </a>
+                <ul class="gnb-menu">
+                    <li class="menu-item active"><a href="#">홈</a></li>
+                    <li class="menu-item"><a href="#">학적</a></li>
+                    <li class="menu-item"><a href="#">수업/성적</a></li>
+                    <li class="menu-item"><a href="#">장학/등록</a></li>
+                    <li class="menu-item"><a href="#">취업/상담</a></li>
+                    <li class="menu-item"><a href="#">기숙사/체험활동</a></li>
+                    <li class="menu-item"><a href="#">부가서비스</a></li>
+                    <li class="menu-item"><a href="#">STELLA시스템</a></li>
+                </ul>
+            </div>
+            <div class="right-block">
+                <a class="btn-util">
+                    <img src="/src/assets/img/header_icon_search.svg">
+                </a>
+                <a class="btn-util">
+                    <img src="/src/assets/img/header_icon_my.svg">
+                </a>
+                <a class="btn-util">
+                    <img src="/src/assets/img/header_icon_logout.svg">
+                </a>
+                <a class="btn-dcubot">
+                    <img src="/src/assets/img/header_bot_character.png" class="character">
+                    <span class="label">DCU Bot</span>
+                </a>
+            </div>
+        </header>
+
+        <div class="container home">
+            <div class="row top-row">
+                <div class="card">
+                    <img src="/src/assets/img/type_d/card_1.png">
+                </div>
+                <div class="card">
+                    <img src="/src/assets/img/type_d/card_2.png">
+                </div>
+                <div class="card">
+                    <img src="/src/assets/img/type_d/card_3.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="card">
+                    <img src="/src/assets/img/type_d/card_schedule.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="card">
+                    <img src="/src/assets/img/type_d/card_4.png">
+                </div>
+                <div class="card fixed-card">
+                    <img src="/src/assets/img/type_d/card_5.png">
+                </div>
+            </div>
+            <div class="row top-row">
+                <div class="card">
+                    <img src="/src/assets/img/type_d/card_6.png">
+                </div>
+                <div class="card">
+                    <img src="/src/assets/img/type_d/card_7.png">
+                </div>
+                <div class="card">
+                    <img src="/src/assets/img/type_d/card_8.png">
+                </div>
+            </div>
+            <div class="btns-row">
+                <button class="btn-widget-add">
+                    <div class="btn-inner">
+                        <svg class="icon" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 10.9971H21" stroke="#6D7882" stroke-width="2" stroke-linecap="round" />
+                            <path d="M11.0049 1L11.0049 21" stroke="#6D7882" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                        <div class="label">
+                            <span class="text-row">
+                                위젯추가
+                            </span>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+
+    </main>
+
+    <script type="module" src="/src/d_home.js"></script>
+</body>
+
+</html>
