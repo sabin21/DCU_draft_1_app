@@ -117,3 +117,8 @@ body {
         }
     }
 }
+
+.btn-home-edit{
+    position: absolute; width: 89px; height: 38px;
+    top: 160px; left: calc(50% - 760px);
+}
