@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>비교과프로그램</title>
+  <script type="module" crossorigin src="./assets/program_1-Bv5GYjN7.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/common-Be6jY8Iw.js">
+  <link rel="modulepreload" crossorigin href="./assets/index-DDlvirwQ.js">
+  <link rel="stylesheet" crossorigin href="./assets/common-C2wnOUP7.css">
+  <link rel="stylesheet" crossorigin href="./assets/program_1-Dyk7NUQr.css">
+  <link rel="stylesheet" crossorigin href="./assets/normalize-6OQuakbA.css">
+</head>
+
+<body>
+  <div class="app-sidenav-wrap">
+      <nav class="app-sidenav" id="app-sidenav">
+        <div class="sidenav-inner">
+          <div class="btn-side-toggle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  class="side-toggle-open-svg">
+                  <path d="M18 18L12 12L18 6" stroke="#6D7882" stroke-width="1.6" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  <path d="M11 18L5 12L11 6" stroke="#6D7882" stroke-width="1.6" stroke-linecap="round"
+                      stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  class="side-toggle-close-svg">
+                  <path d="M5.85718 18L11.8572 12L5.85718 6" stroke="#6D7882" stroke-width="1.6"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M13 18L19 12L13 6" stroke="#6D7882" stroke-width="1.6" stroke-linecap="round"
+                      stroke-linejoin="round" />
+              </svg>
+          </div>
+
+          <div class="btn-menus">
+              <img src="./assets/side_nav_menu-BOJF6-aW.png" class="dummy-img">
+          </div>
+          <div class="btn-side-nav-guide">
+              <img src="data:image/png;base64,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">
+          </div>
+        </div>
+      </nav>
+  </div>
+
+  <main class="app-main">
+    <header class="app-header white" id="app-header">
+        <div class="left-block">
+            <a class="logo-wrap">
+                <img src="./assets/logo_advisor_white-CXjp7FPG.svg">
+            </a>
+            <ul class="gnb-menu">
+                <li class="menu-item"><a href="#">홈</a></li>
+                <li class="menu-item"><a href="#">학적</a></li>
+                <li class="menu-item"><a href="#">수업/성적</a></li>
+                <li class="menu-item"><a href="#">장학/등록</a></li>
+                <li class="menu-item"><a href="#">취업/상담</a></li>
+                <li class="menu-item"><a href="#">기숙사/체험활동</a></li>
+                <li class="menu-item"><a href="#">부가서비스</a></li>
+                <li class="menu-item"><a href="#">STELLA시스템</a></li>
+								<li class="menu-item"><a href="#">역량진단</a></li>
+								<li class="menu-item active"><a href="#">비교과 프로그램</a></li>
+            </ul>
+        </div>
+        <div class="right-block">
+            <a class="btn-util">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M22 20L17.1479 16.228M16.8297 5.32303C19.9934 8.4204 19.9934 13.4422 16.8297 16.5396C13.6659 19.637 8.53652 19.637 5.37279 16.5396C2.20907 13.4422 2.20907 8.4204 5.37279 5.32303C8.53652 2.22566 13.6659 2.22566 16.8297 5.32303Z" stroke="white" stroke-width="1.4" stroke-linecap="round"/>
+							</svg>
+            </a>
+            <a class="btn-util">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M12 13C14.7614 13 17 10.7614 17 8C17 5.23858 14.7614 3 12 3C9.23858 3 7 5.23858 7 8C7 10.7614 9.23858 13 12 13ZM12 13C14.1217 13 16.1566 13.8429 17.6569 15.3431C19.1571 16.8434 20 18.8783 20 21M12 13C9.87827 13 7.84344 13.8429 6.34315 15.3431C4.84285 16.8434 4 18.8783 4 21" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+            </a>
+            <a class="btn-util">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M14.75 9V5.25C14.75 4.00736 13.7426 3 12.5 3L6.5 3C5.25736 3 4.25 4.00736 4.25 5.25L4.25 18.75C4.25 19.9926 5.25736 21 6.5 21H12.5C13.7426 21 14.75 19.9926 14.75 18.75V15M17.75 15L20.75 12M20.75 12L17.75 9M20.75 12L8 12" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+            </a>
+            <a class="btn-dcubot">
+                <img src="./assets/header_bot_character-CONXd5gD.png" class="character">
+                <span class="label">AI 챗봇</span>
+            </a>
+        </div>
+    </header>
+
+    <section class="program-section hero-section-wrap">
+      <div class="back-img-wrap">
+        <img src="./assets/hero_obj_1-JOCNfSDy.png" class="hero-back-img hero-obj-1">
+        <img src="./assets/hero_obj_2-D6pVGd4L.png" class="hero-back-img hero-obj-2">
+        <img src="./assets/hero_student-Cpn7VNha.png" class="hero-back-img hero-student">
+        <img src="./assets/hero_character-xVhCznAR.png" class="hero-back-img hero-character">
+      </div>
+      <div class="inner-container">
+        <h1 class="hero-title">비교과 프로그램</h1>
+        <img src="./assets/hero_my-yldHVvNL.png" class="hero-my">
+        <div class="content-wrap">
+          <img src="./assets/hero_content-C98Y2jcp.png" class="full-img">
+        </div>
+      </div>
+    </section>
+    
+    <section class="program-section program-new-section">
+			<div class="program-section-title-wrap">
+				<h3 class="title-text">최근 비교과 프로그램</h3>
+				<button class="btn-more">
+					더보기
+					<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M3 7H11" stroke="#6D7882" stroke-width="2" stroke-linecap="round"/>
+						<path d="M7 3L7 11" stroke="#6D7882" stroke-width="2" stroke-linecap="round"/>
+					</svg>
+				</button>
+			</div>
+			<div class="new-swipers-wrap">
+				<div class="swiper-new-big">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide slide-new-big">
+							<div class="thumb-wrap">
+								<img src="./assets/thumbnail_2-DWlEJnWD.png">
+							</div>
+							<div class="body-wrap">
+								<div class="slide-big-body-inner">
+									<div class="title-wrap">
+										<h3>R 사용법과 데이터 분석 및 시각화</h3>
+										<p class="title-desc">복잡한 데이터와 연구 결과를 세련된 영어로 논문이 가진 학술적 가치를 전 세계에 효과적으로 전달하는 법을 배우세요.</p>
+									</div>
+									<div class="detail-info">
+										<span class="date-row">
+											<span class="date-label">신청기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<span class="date-row">
+											<span class="date-label">활동기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<div class="tags-row">
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+										</div>
+									</div>
+									<div class="action-row">
+										<div class="status-wrap">
+											<div class="status-item">
+												<span class="num">15</span><span>신청</span>
+											</div>
+                      <div class="status-item">
+												<span class="num green">30</span><span>모집</span>
+											</div>
+                      <div class="status-item gray">
+												<span class="num gray">3</span><span>대기</span>
+											</div>
+										</div>
+										<div class="btn-goto">
+											신청하기
+											<div class="bullet">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M6 3L11 8L6 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="badge-date orange">
+								<span class="">마감임박</span>
+								<span class="">D-5</span>
+							</div>
+						</div>
+						<div class="swiper-slide slide-new-big">
+							<div class="thumb-wrap">
+								<img src="./assets/thumbnail_3-Cv8ECxkE.png">
+							</div>
+							<div class="body-wrap">
+								<div class="slide-big-body-inner">
+									<div class="title-wrap">
+										<h3>R 사용법과 데이터 분석 및 시각화</h3>
+										<p class="title-desc">복잡한 데이터와 연구 결과를 세련된 영어로 논문이 가진 학술적 가치를 전 세계에 효과적으로 전달하는 법을 배우세요.</p>
+									</div>
+									<div class="detail-info">
+										<span class="date-row">
+											<span class="date-label">신청기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<span class="date-row">
+											<span class="date-label">활동기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<div class="tags-row">
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+										</div>
+									</div>
+									<div class="action-row">
+										<div class="status-wrap">
+											<div class="status-item">
+												<span class="num">15</span><span>신청</span>
+											</div>
+                      <div class="status-item">
+												<span class="num green">30</span><span>모집</span>
+											</div>
+                      <div class="status-item gray">
+												<span class="num gray">3</span><span>대기</span>
+											</div>
+										</div>
+										<div class="btn-goto">
+											신청하기
+											<div class="bullet">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M6 3L11 8L6 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="badge-date orange">
+								<span class="">마감임박</span>
+								<span class="">D-5</span>
+							</div>
+						</div>
+						<div class="swiper-slide slide-new-big">
+							<div class="thumb-wrap">
+								<img src="./assets/thumbnail_5-DbNG5TnC.png">
+							</div>
+							<div class="body-wrap">
+								<div class="slide-big-body-inner">
+									<div class="title-wrap">
+										<h3>R 사용법과 데이터 분석 및 시각화</h3>
+										<p class="title-desc">복잡한 데이터와 연구 결과를 세련된 영어로 논문이 가진 학술적 가치를 전 세계에 효과적으로 전달하는 법을 배우세요.</p>
+									</div>
+									<div class="detail-info">
+										<span class="date-row">
+											<span class="date-label">신청기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<span class="date-row">
+											<span class="date-label">활동기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<div class="tags-row">
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+										</div>
+									</div>
+									<div class="action-row">
+										<div class="status-wrap">
+											<div class="status-item">
+												<span class="num">15</span><span>신청</span>
+											</div>
+                      <div class="status-item">
+												<span class="num green">30</span><span>모집</span>
+											</div>
+                      <div class="status-item gray">
+												<span class="num gray">3</span><span>대기</span>
+											</div>
+										</div>
+										<div class="btn-goto">
+											신청하기
+											<div class="bullet">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M6 3L11 8L6 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="badge-date orange">
+								<span class="">마감임박</span>
+								<span class="">D-5</span>
+							</div>
+						</div>
+						<div class="swiper-slide slide-new-big">
+							<div class="thumb-wrap">
+								<img src="./assets/thumbnail_4-DfkUCybl.png">
+							</div>
+							<div class="body-wrap">
+								<div class="slide-big-body-inner">
+									<div class="title-wrap">
+										<h3>R 사용법과 데이터 분석 및 시각화</h3>
+										<p class="title-desc">복잡한 데이터와 연구 결과를 세련된 영어로 논문이 가진 학술적 가치를 전 세계에 효과적으로 전달하는 법을 배우세요.</p>
+									</div>
+									<div class="detail-info">
+										<span class="date-row">
+											<span class="date-label">신청기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<span class="date-row">
+											<span class="date-label">활동기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<div class="tags-row">
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+										</div>
+									</div>
+									<div class="action-row">
+										<div class="status-wrap">
+											<div class="status-item">
+												<span class="num">15</span><span>신청</span>
+											</div>
+                      <div class="status-item">
+												<span class="num green">30</span><span>모집</span>
+											</div>
+                      <div class="status-item gray">
+												<span class="num gray">3</span><span>대기</span>
+											</div>
+										</div>
+										<div class="btn-goto">
+											신청하기
+											<div class="bullet">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M6 3L11 8L6 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="badge-date orange">
+								<span class="">마감임박</span>
+								<span class="">D-5</span>
+							</div>
+						</div>
+						<div class="swiper-slide slide-new-big">
+							<div class="thumb-wrap">
+								<img src="./assets/thumbnail_6-CmHe-zKK.png">
+							</div>
+							<div class="body-wrap">
+								<div class="slide-big-body-inner">
+									<div class="title-wrap">
+										<h3>R 사용법과 데이터 분석 및 시각화</h3>
+										<p class="title-desc">복잡한 데이터와 연구 결과를 세련된 영어로 논문이 가진 학술적 가치를 전 세계에 효과적으로 전달하는 법을 배우세요.</p>
+									</div>
+									<div class="detail-info">
+										<span class="date-row">
+											<span class="date-label">신청기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<span class="date-row">
+											<span class="date-label">활동기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<div class="tags-row">
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+										</div>
+									</div>
+									<div class="action-row">
+										<div class="status-wrap">
+											<div class="status-item">
+												<span class="num">15</span><span>신청</span>
+											</div>
+                      <div class="status-item">
+												<span class="num green">30</span><span>모집</span>
+											</div>
+                      <div class="status-item gray">
+												<span class="num gray">3</span><span>대기</span>
+											</div>
+										</div>
+										<div class="btn-goto">
+											신청하기
+											<div class="bullet">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M6 3L11 8L6 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="badge-date orange">
+								<span class="">마감임박</span>
+								<span class="">D-5</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="swiper-new-small">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide slide-new-small">
+							<img src="./assets/program_card_sm_2-D4jQaz4h.png">
+						</div>
+						<div class="swiper-slide slide-new-small">
+							<img src="./assets/program_card_sm_3-CcmR7lCd.png">
+						</div>
+						<div class="swiper-slide slide-new-small">
+							<img src="./assets/program_card_sm_4-BrGW7E2Y.png">
+						</div>
+						<div class="swiper-slide slide-new-small">
+							<img src="./assets/program_card_sm_5-DkyrJ_7C.png">
+						</div>
+						<div class="swiper-slide slide-new-small">
+							<img src="./assets/program_card_sm_1-BkHYVR06.png">
+						</div>
+					</div>
+				</div>
+
+				<img src="data:image/png;base64,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" class="control-img">
+
+			</div>
+			
+    </section>
+
+    <section class="program-section program-recommand-section">
+			<div class="program-section-title-wrap">
+				<h3 class="title-text">추천 비교과 프로그램</h3>
+				<button class="btn-more">
+					더보기
+					<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M3 7H11" stroke="#6D7882" stroke-width="2" stroke-linecap="round"/>
+						<path d="M7 3L7 11" stroke="#6D7882" stroke-width="2" stroke-linecap="round"/>
+					</svg>
+				</button>
+			</div>
+      <div class="swiper-recommand-wrap">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide slide-recommand">
+						<img src="./assets/thumbnail_7-BfPyn4bl.png" class="back-img">
+						<img src="./assets/program_card2_body_1-DOkwJXa1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="./assets/thumbnail_8-Be2vlgPr.png" class="back-img">
+						<img src="./assets/program_card2_body_1-DOkwJXa1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="./assets/thumbnail_2-DWlEJnWD.png" class="back-img">
+						<img src="./assets/program_card2_body_1-DOkwJXa1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="./assets/thumbnail_3-Cv8ECxkE.png" class="back-img">
+						<img src="./assets/program_card2_body_1-DOkwJXa1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="./assets/thumbnail_4-DfkUCybl.png" class="back-img">
+						<img src="./assets/program_card2_body_1-DOkwJXa1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="./assets/thumbnail_5-DbNG5TnC.png" class="back-img">
+						<img src="./assets/program_card2_body_1-DOkwJXa1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="./assets/thumbnail_6-CmHe-zKK.png" class="back-img">
+						<img src="./assets/program_card2_body_1-DOkwJXa1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="./assets/thumbnail_7-BfPyn4bl.png" class="back-img">
+						<img src="./assets/program_card2_body_1-DOkwJXa1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="./assets/thumbnail_8-Be2vlgPr.png" class="back-img">
+						<img src="./assets/program_card2_body_1-DOkwJXa1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="./assets/thumbnail_2-DWlEJnWD.png" class="back-img">
+						<img src="./assets/program_card2_body_1-DOkwJXa1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="./assets/thumbnail_3-Cv8ECxkE.png" class="back-img">
+						<img src="./assets/program_card2_body_1-DOkwJXa1.png" class="slide-recommand-body">
+					</div>
+				</div>
+				<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAAAJCAYAAADTqhkZAAAACXBIWXMAABCcAAAQnAEmzTo0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAAa1JREFUeAHlV8tNw0AQfbP5HCEd4BKSE4q4xBWgwIlTQgU4FSQlmAriFIBCAyjhlAMHXMLSASCEROzsMBvlghSvLcUXnHdZr2fG+/aNZj1LEARB0Po2jYCJBmD2UCEQSBvwLFVJGIXhe5GY+eKlJ8OYmdsytkC0JKxHff8iLhb/2jJmHZCyesIDWG8Ysy/VDG/9TikcaJe0BQNtVBtxohI/L3kPT6shUW2610g8vPLPZ654mzTmZIH9esYf1PDzkleEg9pWWvWTZtGum/qdy2G+WHki2DjTgSmcSmJc37CVhmw92ydIS+GgJIUDHAnk2By67Aa1ngyew6V1is0lXGuQW09iHqIEDopRrX9aDjyXUYHOkAPK1+sge1EO4geN44F2GY3hN+SAYTQOWMM2KiiBg5LSjXAkYOPeq1KNRxkcjQPrH5hnOCBHZeSyMyEqg4Naq/ReZoXa3H+OOK1v95qJvnR7TJtRpgNhcuN3NZyou/SMP9EshYOy7bFtk8nwBKjksaml0iZFrgIW1343SgkdApa7VzbGPvfyrgIWVniSlp/oj56aZV7kKlCUwy9X8+G0EGHzYgAAAABJRU5ErkJggg==" class="swiper-control-img">
+			</div>
+    </section>
+
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>비교과프로그램</title>
+</head>
+
+<body>
+  <div class="app-sidenav-wrap">
+      <nav class="app-sidenav" id="app-sidenav">
+        <div class="sidenav-inner">
+          <div class="btn-side-toggle">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  class="side-toggle-open-svg">
+                  <path d="M18 18L12 12L18 6" stroke="#6D7882" stroke-width="1.6" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  <path d="M11 18L5 12L11 6" stroke="#6D7882" stroke-width="1.6" stroke-linecap="round"
+                      stroke-linejoin="round" />
+              </svg>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  class="side-toggle-close-svg">
+                  <path d="M5.85718 18L11.8572 12L5.85718 6" stroke="#6D7882" stroke-width="1.6"
+                      stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M13 18L19 12L13 6" stroke="#6D7882" stroke-width="1.6" stroke-linecap="round"
+                      stroke-linejoin="round" />
+              </svg>
+          </div>
+
+          <div class="btn-menus">
+              <img src="/src/assets/img/side_nav_menu.png" class="dummy-img">
+          </div>
+          <div class="btn-side-nav-guide">
+              <img src="/src/assets/img/sidebar_guide.png">
+          </div>
+        </div>
+      </nav>
+  </div>
+
+  <main class="app-main">
+    <header class="app-header white" id="app-header">
+        <div class="left-block">
+            <a class="logo-wrap">
+                <img src="/src/assets/img/logo_advisor_white.svg">
+            </a>
+            <ul class="gnb-menu">
+                <li class="menu-item"><a href="#">홈</a></li>
+                <li class="menu-item"><a href="#">학적</a></li>
+                <li class="menu-item"><a href="#">수업/성적</a></li>
+                <li class="menu-item"><a href="#">장학/등록</a></li>
+                <li class="menu-item"><a href="#">취업/상담</a></li>
+                <li class="menu-item"><a href="#">기숙사/체험활동</a></li>
+                <li class="menu-item"><a href="#">부가서비스</a></li>
+                <li class="menu-item"><a href="#">STELLA시스템</a></li>
+								<li class="menu-item"><a href="#">역량진단</a></li>
+								<li class="menu-item active"><a href="#">비교과 프로그램</a></li>
+            </ul>
+        </div>
+        <div class="right-block">
+            <a class="btn-util">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M22 20L17.1479 16.228M16.8297 5.32303C19.9934 8.4204 19.9934 13.4422 16.8297 16.5396C13.6659 19.637 8.53652 19.637 5.37279 16.5396C2.20907 13.4422 2.20907 8.4204 5.37279 5.32303C8.53652 2.22566 13.6659 2.22566 16.8297 5.32303Z" stroke="white" stroke-width="1.4" stroke-linecap="round"/>
+							</svg>
+            </a>
+            <a class="btn-util">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M12 13C14.7614 13 17 10.7614 17 8C17 5.23858 14.7614 3 12 3C9.23858 3 7 5.23858 7 8C7 10.7614 9.23858 13 12 13ZM12 13C14.1217 13 16.1566 13.8429 17.6569 15.3431C19.1571 16.8434 20 18.8783 20 21M12 13C9.87827 13 7.84344 13.8429 6.34315 15.3431C4.84285 16.8434 4 18.8783 4 21" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+            </a>
+            <a class="btn-util">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M14.75 9V5.25C14.75 4.00736 13.7426 3 12.5 3L6.5 3C5.25736 3 4.25 4.00736 4.25 5.25L4.25 18.75C4.25 19.9926 5.25736 21 6.5 21H12.5C13.7426 21 14.75 19.9926 14.75 18.75V15M17.75 15L20.75 12M20.75 12L17.75 9M20.75 12L8 12" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+            </a>
+            <a class="btn-dcubot">
+                <img src="/src/assets/img/header_bot_character.png" class="character">
+                <span class="label">AI 챗봇</span>
+            </a>
+        </div>
+    </header>
+
+    <section class="program-section hero-section-wrap">
+      <div class="back-img-wrap">
+        <img src="/src/assets/img/program/hero_obj_1.png" class="hero-back-img hero-obj-1">
+        <img src="/src/assets/img/program/hero_obj_2.png" class="hero-back-img hero-obj-2">
+        <img src="/src/assets/img/program/hero_student.png" class="hero-back-img hero-student">
+        <img src="/src/assets/img/program/hero_character.png" class="hero-back-img hero-character">
+      </div>
+      <div class="inner-container">
+        <h1 class="hero-title">비교과 프로그램</h1>
+        <img src="/src/assets/img/program/hero_my.png" class="hero-my">
+        <div class="content-wrap">
+          <img src="/src/assets/img/program/hero_content.png" class="full-img">
+        </div>
+      </div>
+    </section>
+    
+    <section class="program-section program-new-section">
+			<div class="program-section-title-wrap">
+				<h3 class="title-text">최근 비교과 프로그램</h3>
+				<button class="btn-more">
+					더보기
+					<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M3 7H11" stroke="#6D7882" stroke-width="2" stroke-linecap="round"/>
+						<path d="M7 3L7 11" stroke="#6D7882" stroke-width="2" stroke-linecap="round"/>
+					</svg>
+				</button>
+			</div>
+			<div class="new-swipers-wrap">
+				<div class="swiper-new-big">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide slide-new-big">
+							<div class="thumb-wrap">
+								<img src="/src/assets/img/program/thumbnail_2.png">
+							</div>
+							<div class="body-wrap">
+								<div class="slide-big-body-inner">
+									<div class="title-wrap">
+										<h3>R 사용법과 데이터 분석 및 시각화</h3>
+										<p class="title-desc">복잡한 데이터와 연구 결과를 세련된 영어로 논문이 가진 학술적 가치를 전 세계에 효과적으로 전달하는 법을 배우세요.</p>
+									</div>
+									<div class="detail-info">
+										<span class="date-row">
+											<span class="date-label">신청기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<span class="date-row">
+											<span class="date-label">활동기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<div class="tags-row">
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+										</div>
+									</div>
+									<div class="action-row">
+										<div class="status-wrap">
+											<div class="status-item">
+												<span class="num">15</span><span>신청</span>
+											</div>
+                      <div class="status-item">
+												<span class="num green">30</span><span>모집</span>
+											</div>
+                      <div class="status-item gray">
+												<span class="num gray">3</span><span>대기</span>
+											</div>
+										</div>
+										<div class="btn-goto">
+											신청하기
+											<div class="bullet">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M6 3L11 8L6 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="badge-date orange">
+								<span class="">마감임박</span>
+								<span class="">D-5</span>
+							</div>
+						</div>
+						<div class="swiper-slide slide-new-big">
+							<div class="thumb-wrap">
+								<img src="/src/assets/img/program/thumbnail_3.png">
+							</div>
+							<div class="body-wrap">
+								<div class="slide-big-body-inner">
+									<div class="title-wrap">
+										<h3>R 사용법과 데이터 분석 및 시각화</h3>
+										<p class="title-desc">복잡한 데이터와 연구 결과를 세련된 영어로 논문이 가진 학술적 가치를 전 세계에 효과적으로 전달하는 법을 배우세요.</p>
+									</div>
+									<div class="detail-info">
+										<span class="date-row">
+											<span class="date-label">신청기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<span class="date-row">
+											<span class="date-label">활동기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<div class="tags-row">
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+										</div>
+									</div>
+									<div class="action-row">
+										<div class="status-wrap">
+											<div class="status-item">
+												<span class="num">15</span><span>신청</span>
+											</div>
+                      <div class="status-item">
+												<span class="num green">30</span><span>모집</span>
+											</div>
+                      <div class="status-item gray">
+												<span class="num gray">3</span><span>대기</span>
+											</div>
+										</div>
+										<div class="btn-goto">
+											신청하기
+											<div class="bullet">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M6 3L11 8L6 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="badge-date orange">
+								<span class="">마감임박</span>
+								<span class="">D-5</span>
+							</div>
+						</div>
+						<div class="swiper-slide slide-new-big">
+							<div class="thumb-wrap">
+								<img src="/src/assets/img/program/thumbnail_5.png">
+							</div>
+							<div class="body-wrap">
+								<div class="slide-big-body-inner">
+									<div class="title-wrap">
+										<h3>R 사용법과 데이터 분석 및 시각화</h3>
+										<p class="title-desc">복잡한 데이터와 연구 결과를 세련된 영어로 논문이 가진 학술적 가치를 전 세계에 효과적으로 전달하는 법을 배우세요.</p>
+									</div>
+									<div class="detail-info">
+										<span class="date-row">
+											<span class="date-label">신청기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<span class="date-row">
+											<span class="date-label">활동기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<div class="tags-row">
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+										</div>
+									</div>
+									<div class="action-row">
+										<div class="status-wrap">
+											<div class="status-item">
+												<span class="num">15</span><span>신청</span>
+											</div>
+                      <div class="status-item">
+												<span class="num green">30</span><span>모집</span>
+											</div>
+                      <div class="status-item gray">
+												<span class="num gray">3</span><span>대기</span>
+											</div>
+										</div>
+										<div class="btn-goto">
+											신청하기
+											<div class="bullet">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M6 3L11 8L6 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="badge-date orange">
+								<span class="">마감임박</span>
+								<span class="">D-5</span>
+							</div>
+						</div>
+						<div class="swiper-slide slide-new-big">
+							<div class="thumb-wrap">
+								<img src="/src/assets/img/program/thumbnail_4.png">
+							</div>
+							<div class="body-wrap">
+								<div class="slide-big-body-inner">
+									<div class="title-wrap">
+										<h3>R 사용법과 데이터 분석 및 시각화</h3>
+										<p class="title-desc">복잡한 데이터와 연구 결과를 세련된 영어로 논문이 가진 학술적 가치를 전 세계에 효과적으로 전달하는 법을 배우세요.</p>
+									</div>
+									<div class="detail-info">
+										<span class="date-row">
+											<span class="date-label">신청기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<span class="date-row">
+											<span class="date-label">활동기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<div class="tags-row">
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+										</div>
+									</div>
+									<div class="action-row">
+										<div class="status-wrap">
+											<div class="status-item">
+												<span class="num">15</span><span>신청</span>
+											</div>
+                      <div class="status-item">
+												<span class="num green">30</span><span>모집</span>
+											</div>
+                      <div class="status-item gray">
+												<span class="num gray">3</span><span>대기</span>
+											</div>
+										</div>
+										<div class="btn-goto">
+											신청하기
+											<div class="bullet">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M6 3L11 8L6 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="badge-date orange">
+								<span class="">마감임박</span>
+								<span class="">D-5</span>
+							</div>
+						</div>
+						<div class="swiper-slide slide-new-big">
+							<div class="thumb-wrap">
+								<img src="/src/assets/img/program/thumbnail_6.png">
+							</div>
+							<div class="body-wrap">
+								<div class="slide-big-body-inner">
+									<div class="title-wrap">
+										<h3>R 사용법과 데이터 분석 및 시각화</h3>
+										<p class="title-desc">복잡한 데이터와 연구 결과를 세련된 영어로 논문이 가진 학술적 가치를 전 세계에 효과적으로 전달하는 법을 배우세요.</p>
+									</div>
+									<div class="detail-info">
+										<span class="date-row">
+											<span class="date-label">신청기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<span class="date-row">
+											<span class="date-label">활동기간</span>
+											2026.05.10~2026.06.15
+										</span>
+										<div class="tags-row">
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+											<span class="tag">의사소통역량</span>
+										</div>
+									</div>
+									<div class="action-row">
+										<div class="status-wrap">
+											<div class="status-item">
+												<span class="num">15</span><span>신청</span>
+											</div>
+                      <div class="status-item">
+												<span class="num green">30</span><span>모집</span>
+											</div>
+                      <div class="status-item gray">
+												<span class="num gray">3</span><span>대기</span>
+											</div>
+										</div>
+										<div class="btn-goto">
+											신청하기
+											<div class="bullet">
+												<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M6 3L11 8L6 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="badge-date orange">
+								<span class="">마감임박</span>
+								<span class="">D-5</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="swiper-new-small">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide slide-new-small">
+							<img src="/src/assets/img/program/program_card_sm_2.png">
+						</div>
+						<div class="swiper-slide slide-new-small">
+							<img src="/src/assets/img/program/program_card_sm_3.png">
+						</div>
+						<div class="swiper-slide slide-new-small">
+							<img src="/src/assets/img/program/program_card_sm_4.png">
+						</div>
+						<div class="swiper-slide slide-new-small">
+							<img src="/src/assets/img/program/program_card_sm_5.png">
+						</div>
+						<div class="swiper-slide slide-new-small">
+							<img src="/src/assets/img/program/program_card_sm_1.png">
+						</div>
+					</div>
+				</div>
+
+				<img src="/src/assets/img/program/program_swiper1_control.png" class="control-img">
+
+			</div>
+			
+    </section>
+
+    <section class="program-section program-recommand-section">
+			<div class="program-section-title-wrap">
+				<h3 class="title-text">추천 비교과 프로그램</h3>
+				<button class="btn-more">
+					더보기
+					<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M3 7H11" stroke="#6D7882" stroke-width="2" stroke-linecap="round"/>
+						<path d="M7 3L7 11" stroke="#6D7882" stroke-width="2" stroke-linecap="round"/>
+					</svg>
+				</button>
+			</div>
+      <div class="swiper-recommand-wrap">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide slide-recommand">
+						<img src="/src/assets/img/program/thumbnail_7.png" class="back-img">
+						<img src="/src/assets/img/program/program_card2_body_1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="/src/assets/img/program/thumbnail_8.png" class="back-img">
+						<img src="/src/assets/img/program/program_card2_body_1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="/src/assets/img/program/thumbnail_2.png" class="back-img">
+						<img src="/src/assets/img/program/program_card2_body_1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="/src/assets/img/program/thumbnail_3.png" class="back-img">
+						<img src="/src/assets/img/program/program_card2_body_1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="/src/assets/img/program/thumbnail_4.png" class="back-img">
+						<img src="/src/assets/img/program/program_card2_body_1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="/src/assets/img/program/thumbnail_5.png" class="back-img">
+						<img src="/src/assets/img/program/program_card2_body_1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="/src/assets/img/program/thumbnail_6.png" class="back-img">
+						<img src="/src/assets/img/program/program_card2_body_1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="/src/assets/img/program/thumbnail_7.png" class="back-img">
+						<img src="/src/assets/img/program/program_card2_body_1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="/src/assets/img/program/thumbnail_8.png" class="back-img">
+						<img src="/src/assets/img/program/program_card2_body_1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="/src/assets/img/program/thumbnail_2.png" class="back-img">
+						<img src="/src/assets/img/program/program_card2_body_1.png" class="slide-recommand-body">
+					</div>
+					<div class="swiper-slide slide-recommand">
+						<img src="/src/assets/img/program/thumbnail_3.png" class="back-img">
+						<img src="/src/assets/img/program/program_card2_body_1.png" class="slide-recommand-body">
+					</div>
+				</div>
+				<img src="/src/assets/img/program/program_swiper2_control.png" class="swiper-control-img">
+			</div>
+    </section>
+
+  </main>
+
+    <script type="module" src="/src/program_1.js"></script>
+</body>
+
+</html>

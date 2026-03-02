@@ -102,8 +102,9 @@ a{ text-decoration: none; }
   }
 }
 .app-header {
-  position: absolute; width:100%; height: 68px; display:flex; justify-content:space-between;
+  position: fixed; width:calc(100% - 68px); height: 68px; display:flex; justify-content:space-between;
   left:0; top:0; z-index: 1000;
+  transition: background-color 0.3s, border-bottom 0.3s;
   >.left-block{
     display:flex; align-items:center; height:100%; position: relative;
     >.logo-wrap{
@@ -153,6 +154,11 @@ a{ text-decoration: none; }
     display:flex; height: 100%; align-items:center; margin-right: 14px;
     >.btn-util{
       width:48px; height: 48px; display:flex; justify-content:center; align-items:center;
+      >svg{
+        path{
+          stroke:var(--color-gray-800);
+        }
+      }
     }
     >.btn-dcubot{
       width:108px; height: 44px; overflow:hidden; border-radius: 22px; position: relative;
@@ -192,7 +198,21 @@ a{ text-decoration: none; }
         }
       }
     }
+    >.right-block{
+      >.btn-util{
+        >svg{
+          path{
+            stroke:white;
+          }
+        }
+      }
+    }
   } 
+  &:not(.white) {
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(40px);
+    /* border-bottom: 1px solid var(--color-gray-100); */
+  }
 }
 
 .bg-test{

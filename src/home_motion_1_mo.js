@@ -41,17 +41,17 @@ window.addEventListener("DOMContentLoaded", () => {
         ease: "power1.inOut"
     });
 
-    gsap.fromTo(".search-visual-balloon", 
-        { scale: 0, transformOrigin: "bottom left" },
-        { 
-            scale: 1, 
-            duration: 1, 
-            repeat: -1, 
-            yoyo: true, 
-            repeatDelay: 0.5,
-            ease: "back.out(1.7)" 
-        }
-    );
+  gsap.fromTo(".search-visual-balloon", 
+    { scale: 0, transformOrigin: "bottom left" },
+    { 
+      scale: 1, 
+      duration: 1, 
+      repeat: -1, 
+      yoyo: true, 
+      repeatDelay: 0.5,
+      ease: "back.out(1.7)" 
+    }
+  );
 });
 
 //----------------------//
